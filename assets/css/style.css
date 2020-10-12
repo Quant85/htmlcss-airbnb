@@ -11,14 +11,12 @@ html{
 
 header {
   width: 40%;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
+  text-align: center;
+  color: #ff385c;
+  background: #ffffff;
   margin: 10px auto;
   border-bottom: 1px solid black ;
-}
-
-h1,
-h2 {
-  text-align: center;
 }
 
 .container-cards{
