@@ -7,11 +7,12 @@
 
 html{
   width: 100vw;
+  height: 100vh;
 }
 
 header {
   width: 40%;
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   text-align: center;
   color: #ff385c;
   background: #ffffff;
@@ -20,20 +21,23 @@ header {
 }
 
 .container-cards{
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
 }
 
 .box-card{
-  width: calc((100% - 40px) / 3);
-  margin: auto;
+  width: 25vw;
+  height: calc(25vw / 2);
+  margin: 20px auto;
   border: 5px solid rgb(247, 247, 247);
   box-shadow: 6px 6px 4px black, -2px -2px 6px #775003;
   position: relative;
+  overflow: hidden;
 }
 
+
 section.box-card > h2{
-  font-size: 3vw;
+  font-size: 2vw;
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 4px 4px 6px #000000;
@@ -49,7 +53,8 @@ figure>img.location-image {
   vertical-align: middle;
 }
 
-.layover, figure.image-box>a:nth-child(3) {
+.layover,
+figure.image-box>a:nth-child(3) {
   width: 100%;
   height: 100%;
   position: absolute;
