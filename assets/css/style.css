@@ -58,3 +58,30 @@ figure>img.location-image {
   position: absolute;
   top: 0;
 }
+
+footer.made{
+  width: 40%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 0;
+  margin: 10px auto;
+  border-top: 1px solid black;
+
+}
+
+footer.made:hover{
+  font-size: 1.2em;
+  color: #ffffff;
+  border: 1px solid #001632;
+  border-radius: 5px;
+  background-color: #001632;
+}
+
+footer.made a{
+  text-decoration: none;
+  color: #0056b3;
+}
+
+footer.made a:hover{
+  color: #0cd977;
+}
